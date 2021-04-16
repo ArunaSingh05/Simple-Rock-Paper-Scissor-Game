@@ -1,0 +1,13 @@
+.option-img {
+  width:100px;
+  height:100px;
+}
+
+.active-option {
+  border:2px solid green;
+}
+
+.disable {
+            pointer-events: none;
+            cursor: default;
+        }

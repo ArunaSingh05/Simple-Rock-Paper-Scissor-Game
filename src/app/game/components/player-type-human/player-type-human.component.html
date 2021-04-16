@@ -1,0 +1,9 @@
+<div>
+  <div class="player-type"> <h3>You</h3></div>
+  <div class="score"><span>Score: {{gameService?.humanScore}}</span></div>
+  <div class="option-wrapper">
+   <a (click)="setOption('rock')"><img class="option-img" [ngClass]="{'active-option':throw === 'rock','disable':throw === 'rock'}" src="/assets/rock.jpg"></a>
+   <a (click)="setOption('paper')"><img class="option-img" [ngClass]="{'active-option':throw === 'paper','disable':throw === 'paper'}"  src="/assets/paper.jpg"></a>
+   <a (click)="setOption('scissor')"><img class="option-img" [ngClass]="{'active-option':throw === 'scissor','disable':throw === 'scissor'}"  src="/assets/scissor.jpg"></a>
+  </div>
+</div>
